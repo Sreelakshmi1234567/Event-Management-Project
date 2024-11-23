@@ -1,0 +1,49 @@
+.about-section h1 {
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: bold;
+ 
+}
+
+.about-section img {
+  transition: transform 0.3s ease;
+}
+
+.about-section img:hover {
+  transform: scale(1.05);
+}
+.about-section img {
+    height: 250px; 
+    object-fit: cover; 
+  }
+
+
+  .vision-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(229, 201, 205);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .vision-text {
+    padding-right: 20px;
+    
+  }
+  
+  
+  .vision-image img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+  
+  
